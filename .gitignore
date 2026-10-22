@@ -6,7 +6,7 @@ dataset
 /logs/
 /exps/
 /trash/
-
+/exps/
 # ignore annotation
 !/data/
 /data/*

@@ -3,6 +3,7 @@ from .transforms import *
 from .base import *
 from .anet import AnetResizeDataset, AnetPaddingDataset, AnetSlidingDataset
 from .thumos import ThumosSlidingDataset, ThumosPaddingDataset
+from .birds import BirdsPaddingDataset, BirdsSlidingDataset
 from .ego4d import Ego4DSlidingDataset, Ego4DPaddingDataset, Ego4DResizeDataset
 from .epic_kitchens import EpicKitchensSlidingDataset, EpicKitchensPaddingDataset
 
@@ -14,6 +15,8 @@ __all__ = [
     "AnetSlidingDataset",
     "ThumosSlidingDataset",
     "ThumosPaddingDataset",
+    "BirdsPaddingDataset",
+    "BirdsSlidingDataset",
     "Ego4DSlidingDataset",
     "Ego4DPaddingDataset",
     "Ego4DResizeDataset",
