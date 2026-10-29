@@ -1,5 +1,5 @@
 """Bird behavior datasets for the annotations written by prepare_dataset.py.
-    COPIES the structure of thumis/epic_kitchens.py datasets.
+    COPIES the structure of thumos datsets but not the thumos specific ambigious class
 
 """
 
